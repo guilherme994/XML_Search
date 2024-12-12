@@ -40,10 +40,10 @@ def process_xml_files(source_folder, target_folder_equal, target_folder_differen
                 print(f"Erro ao processar arquivo {filename}: {e}")
 
 # Parâmetros do script
-source_folder = 'E:\XMLDownload'
-target_folder_equal = 'C:\XMLIgual'
-target_folder_different = 'C:\XMLDiferente'
-tag_name = 'ItemListaServico'  # Nome da tag sem o prefixo
+source_folder = r''
+target_folder_equal = r''
+target_folder_different = r''
+tag_name = 'ItemListaServico'
 target_value = '14.05'
 namespaces = {
     'ns1': 'http://nfe.sjp.pr.gov.br/servico_consultar_nfse_resposta_v03.xsd',
