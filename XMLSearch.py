@@ -53,3 +53,6 @@ namespaces = {
 
 # Executar a função
 process_xml_files(source_folder, target_folder_equal, target_folder_different, tag_name, target_value, namespaces)
+
+# Exibir mensagem para manter o prompt aberto
+input("Processamento concluído. Pressione ENTER para sair.")
